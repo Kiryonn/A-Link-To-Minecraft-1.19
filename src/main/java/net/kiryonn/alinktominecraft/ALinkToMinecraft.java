@@ -1,6 +1,7 @@
 package net.kiryonn.alinktominecraft;
 
 import net.fabricmc.api.ModInitializer;
+import net.kiryonn.alinktominecraft.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +11,6 @@ public class ALinkToMinecraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
