@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "alinktominecraft",
+  "version": "${version}",
+
+  "name": "A Link To Minecraft",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Kiryonn"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Kiryonn/a-link-to-minecraft"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/alinktominecraft/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kiryonn.alinktominecraft.ALinkToMinecraft"
+    ],
+    "client": [
+      "net.kiryonn.alinktominecraft.ALinkToMinecraftClient"
+    ]
+  },
+  "mixins": [
+    "alinktominecraft.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
