@@ -8,18 +8,16 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item BLUE_EMERALD = registerItem("blue_emerald",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item YELLOW_EMERALD = registerItem("yellow_emerald",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RED_EMERALD = registerItem("red_emerald",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item PURPLE_EMERALD = registerItem("purple_emerald",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item ORANGE_EMERALD = registerItem("orange_emerald",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item SILVER_EMERALD = registerItem("silver_emerald",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item BLUE_EMERALD = registerItem("blue_emerald", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item YELLOW_EMERALD = registerItem("yellow_emerald", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item RED_EMERALD = registerItem("red_emerald", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item PURPLE_EMERALD = registerItem("purple_emerald", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item ORANGE_EMERALD = registerItem("orange_emerald", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item SILVER_EMERALD = registerItem("silver_emerald", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+
+    public static final Item DIN_FIRE = registerItem("din_fire", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item FARORE_WIND = registerItem("farore_wind", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
+    public static final Item NAYRU_LOVE = registerItem("nayru_love", new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(ALinkToMinecraft.MOD_ID, name), item);
