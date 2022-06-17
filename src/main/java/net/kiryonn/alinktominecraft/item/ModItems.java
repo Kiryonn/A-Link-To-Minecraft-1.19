@@ -8,19 +8,17 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item RUBI_1 = registerItem("rubi_1",
+    public static final Item BLUE_EMERALD = registerItem("blue_emerald",
             new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RUBI_5 = registerItem("rubi_5",
+    public static final Item YELLOW_EMERALD = registerItem("yellow_emerald",
             new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RUBI_10 = registerItem("rubi_10",
+    public static final Item RED_EMERALD = registerItem("red_emerald",
             new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RUBI_20 = registerItem("rubi_20",
+    public static final Item PURPLE_EMERALD = registerItem("purple_emerald",
             new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RUBI_50 = registerItem("rubi_50",
+    public static final Item ORANGE_EMERALD = registerItem("orange_emerald",
             new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RUBI_100 = registerItem("rubi_100",
-            new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
-    public static final Item RUBI_200 = registerItem("rubi_200",
+    public static final Item SILVER_EMERALD = registerItem("silver_emerald",
             new Item(new FabricItemSettings().group(ModItemGroup.A_LINK_TO_MINECRAFT)));
 
     private static Item registerItem(String name, Item item){
